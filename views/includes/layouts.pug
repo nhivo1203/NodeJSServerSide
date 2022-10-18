@@ -1,0 +1,27 @@
+doctype html
+html(lang="en")
+
+    head
+        meta(charset="utf-8")
+        meta(content="This is the code for learning" name="description")
+        meta(content="Learning" name="keywords")
+
+        block title
+            title Nhi Võ - Learning
+
+        include ./head.pug
+
+    body
+        //Header
+        include ./header.pug
+
+        //Content
+        main
+            block content
+
+        include ./footer.pug
+
+        //Javascript
+        include ./javascript.pug
+
+        block specific-js
